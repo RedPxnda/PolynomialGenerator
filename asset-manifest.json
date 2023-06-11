@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/PolynomialGenerator/static/css/main.3fc5584a.css",
+    "main.css": "/PolynomialGenerator/static/css/main.b3a90a06.css",
     "main.js": "/PolynomialGenerator/static/js/main.36a1ba37.js",
     "static/js/787.7de34ce2.chunk.js": "/PolynomialGenerator/static/js/787.7de34ce2.chunk.js",
     "index.html": "/PolynomialGenerator/index.html",
-    "main.3fc5584a.css.map": "/PolynomialGenerator/static/css/main.3fc5584a.css.map",
+    "main.b3a90a06.css.map": "/PolynomialGenerator/static/css/main.b3a90a06.css.map",
     "main.36a1ba37.js.map": "/PolynomialGenerator/static/js/main.36a1ba37.js.map",
     "787.7de34ce2.chunk.js.map": "/PolynomialGenerator/static/js/787.7de34ce2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3fc5584a.css",
+    "static/css/main.b3a90a06.css",
     "static/js/main.36a1ba37.js"
   ]
 }
