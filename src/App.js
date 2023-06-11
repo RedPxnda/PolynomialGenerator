@@ -38,6 +38,7 @@ function App() {
             <option value="random">Random</option>
           </select>
         </div>
+        <p>Made by James Skilton</p>
       </div>
     </div>
   );

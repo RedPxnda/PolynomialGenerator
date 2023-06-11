@@ -28,8 +28,8 @@ body {
 
 .text-box {
   display: inline-block;
-  width: 600px;
-  height: 600px;
+  width: 625px;
+  height: 625px;
   padding: 30px 15px;
   border-radius: 50px;
   margin: 20px;
@@ -46,7 +46,7 @@ body {
 
 .section {
   padding: 3%;
-  width: 50%;
+  width: 55%;
   border-width: 3px;
   background-color: #363636;
   border-radius: 30px;
