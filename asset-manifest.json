@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/PolynomialGenerator/static/css/main.94cb5de6.css",
+    "main.js": "/PolynomialGenerator/static/js/main.816ec7b9.js",
+    "static/js/787.7de34ce2.chunk.js": "/PolynomialGenerator/static/js/787.7de34ce2.chunk.js",
+    "index.html": "/PolynomialGenerator/index.html",
+    "main.94cb5de6.css.map": "/PolynomialGenerator/static/css/main.94cb5de6.css.map",
+    "main.816ec7b9.js.map": "/PolynomialGenerator/static/js/main.816ec7b9.js.map",
+    "787.7de34ce2.chunk.js.map": "/PolynomialGenerator/static/js/787.7de34ce2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.94cb5de6.css",
+    "static/js/main.816ec7b9.js"
+  ]
+}
