@@ -24,7 +24,8 @@ function randomInRange(min, max) {
 function random(json) {
   let max = json["max"]
   let min = json["min"]
-  return Math.floor(Math.random()*(max+1-min)) + min
+  var val = Math.floor(Math.random()*(max+1-min)) + min
+  return val !== 0 ? val : random(json)
 }
 function restrictedRandom(json, used) {
   var rand = random(json)
@@ -54,7 +55,7 @@ function formatEx(str) {
     letters.sort();
     return letters.join('');
     // + - -> -                       // 1 -x -> 1 - x                              // 1x -> x                       // w+w -> w + w                                     // +4 -> 4                         // double spaces
-  }).replaceAll(/\+(\s*-\s*)/g, '$1').replaceAll(/(\w)\s*(-)\s*(\w)/g, '$1 $2 $3').replaceAll(/(?<!\w)1(\w)/g, '$1').replaceAll(/(\w)\s*([+-])\s*(?=\w)/g, '$1 $2 ').replaceAll(/(^\+)|(\()\+/g, '$2').replaceAll(/\s\s/g, ' ')
+  }).replaceAll(/\+(\s*-\s*)/g, '$1').replaceAll(/(\w)\s*(-)\s*(\w)/g, '$1 $2 $3').replaceAll(/(?<!\w)1([a-zA-Z])/g, '$1').replaceAll(/(\w)\s*([+-])\s*(?=\w)/g, '$1 $2 ').replaceAll(/(^\+)|(\()\+/g, '$2').replaceAll(/\s\s/g, ' ')
   //console.log("after: " + ret)
   return ret
 }
