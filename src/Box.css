@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  background: #444444;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.separator {
+  width: 55%;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: block;
+  align-content: center;
+  border-top: 2px solid #00c3ff;
+  box-shadow: 0px 0px 6px 1px #00c3ff60;
+}
+
+.text-box {
+  display: inline-block;
+  width: 600px;
+  height: 600px;
+  padding: 30px 15px;
+  border-radius: 50px;
+  margin: 20px;
+  background-color: #444444;
+  box-shadow: 0px 0px 10px 5px #00c3ff;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.header {
+  font-size: 40px;
+  color: #ffffff;
+}
+
+.section {
+  padding: 3%;
+  width: 50%;
+  border-width: 3px;
+  background-color: #363636;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: 500;
+  display: block;
+  margin: auto;
+}
+
+.hidden-text {
+  font-size: 20px;
+  color: transparent;
+  transition: 0.75s;
+  text-shadow: 0 0 15px #ffffff;
+}
+
+.hidden-text:hover {
+  font-size: 20px;
+  color: white;
+  text-shadow: 0 0 0px #ffffff;
+}
+
+.section-title {
+  font-size: 25px;
+  color: #01b9e7;
+}
+
+.box {
+  position: relative;
+  padding: 20px;
+  min-width: 300px;
+  min-height: 60px;
+}
+
+.box select {
+  background: linear-gradient(90deg, #13c8ff 0%, #007da3 100%);
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+  font-weight: 700;
+  text-shadow: 0 0 0px #000000, 0px 0 5px #000000;
+  font-family: 'Nunito', sans-serif;
+  padding: 14px;
+  width: 250px;
+  border: none;
+  cursor: pointer;
+  border-radius: 1000px;
+}
+
+.box option {
+  color: rgb(48, 48, 48);
+  text-transform: capitalize;
+}
